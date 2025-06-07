@@ -166,6 +166,8 @@ Click **Extend**.
 A job progress window opens.
 TrueNAS returns to the ***Poolname* Devices** screen when complete.
 
+To check the progress manually go to System -> Shell and enter **sudo zpool status**
+
 ### Adding a VDEV to a Pool
 
 ZFS supports adding VDEVs to an existing ZFS pool to increase the capacity or performance of the pool.
